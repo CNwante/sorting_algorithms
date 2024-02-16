@@ -9,6 +9,7 @@
 #define _SORT_H_
 
 /*====== Standard Libraries ======*/
+#include <stdio.h>
 
 /*====== Function Prototypes =====*/
 void print_array(const int *array, size_t size);
