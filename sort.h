@@ -10,6 +10,7 @@
 
 /*====== Standard Libraries ======*/
 #include <stdio.h>
+#include <stdlib.h>
 
 /*===== Data Structures =====*/
 
@@ -49,5 +50,6 @@ void qs(int *array, ssize_t first, ssize_t last, int size);
 listint_t *swap_node(listint_t *node, listint_t **list);
 void swap(int *array, int item1, int item2);
 
+int get_max(int *array, int size)
 
 #endif /* _SORT_H_ */
