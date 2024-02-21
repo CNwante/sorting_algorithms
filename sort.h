@@ -44,11 +44,11 @@ void radix_sort(int *array, size_t size);
 void bitonic_sort(int *array, size_t size);
 void quick_sort_hoare(int *array, size_t size);
 /* void swap(int *array, ssize_t item1, ssize_t item2); */
-int lomuto_partition(int *array, ssize_t first, ssize_t last, size_t size);
+/* int lomuto_partition(int *array, ssize_t first, ssize_t last, size_t size); */
 void qs(int *array, ssize_t first, ssize_t last, int size);
 
 listint_t *swap_node(listint_t *node, listint_t **list);
-void swap(int *array, int item1, int item2);
+/* void swap(int *array, int item1, int item2); */
 
 int get_max(int *array, int size);
 
